@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "iDeH6uqCNSqGfVQhj/cGjG27XIjMDeNl8S4DhVPSxKk=",
+  "Source": "hub.Api",
+  "BasePath": "_content/hub.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

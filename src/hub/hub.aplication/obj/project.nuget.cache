@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Mm0bh/ug+f0bF1cZ5wVf+7bXmC/w75U7xZ4C5R3EJ6afu8FyIihY4s1Pn8rSA940bfHyFiPX7185bI8UeZRQlw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.aplication\\hub.application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hulds\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512",
+    "C:\\Users\\hulds\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

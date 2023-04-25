@@ -1,0 +1,17 @@
+C:\Users\hulds\Desktop\arquitetura\Anêmico\hub\hub.aplication\bin\Debug\net6.0\hub.aplication.deps.json
+C:\Users\hulds\Desktop\arquitetura\Anêmico\hub\hub.aplication\bin\Debug\net6.0\hub.aplication.dll
+C:\Users\hulds\Desktop\arquitetura\Anêmico\hub\hub.aplication\bin\Debug\net6.0\hub.aplication.pdb
+C:\Users\hulds\Desktop\arquitetura\Anêmico\hub\hub.aplication\bin\Debug\net6.0\hub.domain.dll
+C:\Users\hulds\Desktop\arquitetura\Anêmico\hub\hub.aplication\bin\Debug\net6.0\hub.domain.pdb
+C:\Users\hulds\Desktop\arquitetura\Anêmico\hub\hub.aplication\obj\Debug\net6.0\hub.aplication.csproj.AssemblyReference.cache
+C:\Users\hulds\Desktop\arquitetura\Anêmico\hub\hub.aplication\obj\Debug\net6.0\hub.aplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hulds\Desktop\arquitetura\Anêmico\hub\hub.aplication\obj\Debug\net6.0\hub.aplication.AssemblyInfoInputs.cache
+C:\Users\hulds\Desktop\arquitetura\Anêmico\hub\hub.aplication\obj\Debug\net6.0\hub.aplication.AssemblyInfo.cs
+C:\Users\hulds\Desktop\arquitetura\Anêmico\hub\hub.aplication\obj\Debug\net6.0\hub.aplication.csproj.CoreCompileInputs.cache
+C:\Users\hulds\Desktop\arquitetura\Anêmico\hub\hub.aplication\obj\Debug\net6.0\hub.aplication.csproj.CopyComplete
+C:\Users\hulds\Desktop\arquitetura\Anêmico\hub\hub.aplication\obj\Debug\net6.0\hub.aplication.dll
+C:\Users\hulds\Desktop\arquitetura\Anêmico\hub\hub.aplication\obj\Debug\net6.0\refint\hub.aplication.dll
+C:\Users\hulds\Desktop\arquitetura\Anêmico\hub\hub.aplication\obj\Debug\net6.0\hub.aplication.pdb
+C:\Users\hulds\Desktop\arquitetura\Anêmico\hub\hub.aplication\obj\Debug\net6.0\ref\hub.aplication.dll
+C:\Users\hulds\Desktop\arquitetura\Anêmico\hub\hub.aplication\bin\Debug\net6.0\hub.infrastructure.dll
+C:\Users\hulds\Desktop\arquitetura\Anêmico\hub\hub.aplication\bin\Debug\net6.0\hub.infrastructure.pdb
