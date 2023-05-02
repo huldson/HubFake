@@ -6,14 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "hub.application/1.0.0": {
+      "Hub.Application/1.0.0": {
         "dependencies": {
-          "Newtonsoft.Json": "13.0.3",
-          "hub.domain": "1.0.0",
-          "hub.infrastructure": "1.0.0"
+          "Hub.Domain": "1.0.0",
+          "Hub.Infrastructure": "1.0.0",
+          "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
-          "hub.application.dll": {}
+          "Hub.Application.dll": {}
         }
       },
       "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
@@ -32,24 +32,27 @@
           }
         }
       },
-      "hub.domain/1.0.0": {
+      "Hub.Domain/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
         "runtime": {
-          "hub.domain.dll": {}
+          "Hub.Domain.dll": {}
         }
       },
-      "hub.infrastructure/1.0.0": {
+      "Hub.Infrastructure/1.0.0": {
         "dependencies": {
           "Microsoft.Office.Interop.Excel": "15.0.4795.1001",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
-          "hub.infrastructure.dll": {}
+          "Hub.Infrastructure.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "hub.application/1.0.0": {
+    "Hub.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -68,12 +71,12 @@
       "path": "newtonsoft.json/13.0.3",
       "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     },
-    "hub.domain/1.0.0": {
+    "Hub.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "hub.infrastructure/1.0.0": {
+    "Hub.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

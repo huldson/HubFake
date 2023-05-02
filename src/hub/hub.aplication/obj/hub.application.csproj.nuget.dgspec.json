@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.aplication\\hub.application.csproj": {}
+    "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.aplication\\Hub.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.aplication\\hub.application.csproj": {
+    "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.aplication\\Hub.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.aplication\\hub.application.csproj",
-        "projectName": "hub.application",
-        "projectPath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.aplication\\hub.application.csproj",
+        "projectUniqueName": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.aplication\\Hub.Application.csproj",
+        "projectName": "Hub.Application",
+        "projectPath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.aplication\\Hub.Application.csproj",
         "packagesPath": "C:\\Users\\hulds\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.aplication\\obj\\",
         "projectStyle": "PackageReference",
@@ -33,11 +33,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\hub.domain.csproj": {
-                "projectPath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\hub.domain.csproj"
+              "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\Hub.Domain.csproj": {
+                "projectPath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\Hub.Domain.csproj"
               },
-              "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.infrastructure\\hub.infrastructure.csproj": {
-                "projectPath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.infrastructure\\hub.infrastructure.csproj"
+              "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.infrastructure\\Hub.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.infrastructure\\Hub.Infrastructure.csproj"
               }
             }
           }
@@ -77,12 +77,12 @@
         }
       }
     },
-    "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\hub.domain.csproj": {
+    "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\Hub.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\hub.domain.csproj",
-        "projectName": "hub.domain",
-        "projectPath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\hub.domain.csproj",
+        "projectUniqueName": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\Hub.Domain.csproj",
+        "projectName": "Hub.Domain",
+        "projectPath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\Hub.Domain.csproj",
         "packagesPath": "C:\\Users\\hulds\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -117,6 +117,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -137,12 +143,12 @@
         }
       }
     },
-    "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.infrastructure\\hub.infrastructure.csproj": {
+    "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.infrastructure\\Hub.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.infrastructure\\hub.infrastructure.csproj",
-        "projectName": "hub.infrastructure",
-        "projectPath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.infrastructure\\hub.infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.infrastructure\\Hub.Infrastructure.csproj",
+        "projectName": "Hub.Infrastructure",
+        "projectPath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.infrastructure\\Hub.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\hulds\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.infrastructure\\obj\\",
         "projectStyle": "PackageReference",

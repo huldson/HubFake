@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,11 +9,17 @@ namespace hub.domain
 {
     public class Produto
     {
+        [JsonProperty("Id")]
         public int Id { get; set; }
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public decimal Price { get; set; }
-        public string Category { get; set; }
-        public string Image { get; set; }
+        [JsonProperty("Title")]
+        public string? Titulo { get; set; }
+        [JsonProperty("Description")]
+        public string? Descricao { get; set; }
+        [JsonProperty("Price")]
+        public decimal? Preco { get; set; }
+        [JsonProperty("Category")]
+        public string? Categoria { get; set; }
+        [JsonProperty("Image")]
+        public string? Imagem { get; set; }
     }
 }

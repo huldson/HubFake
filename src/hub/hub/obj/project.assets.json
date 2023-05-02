@@ -111,32 +111,35 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "hub.application/1.0.0": {
+      "Hub.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Newtonsoft.Json": "13.0.3",
-          "hub.domain": "1.0.0",
-          "hub.infrastructure": "1.0.0"
+          "Hub.Domain": "1.0.0",
+          "Hub.Infrastructure": "1.0.0",
+          "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
-          "bin/placeholder/hub.application.dll": {}
+          "bin/placeholder/Hub.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/hub.application.dll": {}
+          "bin/placeholder/Hub.Application.dll": {}
         }
       },
-      "hub.domain/1.0.0": {
+      "Hub.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
         "compile": {
-          "bin/placeholder/hub.domain.dll": {}
+          "bin/placeholder/Hub.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/hub.domain.dll": {}
+          "bin/placeholder/Hub.Domain.dll": {}
         }
       },
-      "hub.infrastructure/1.0.0": {
+      "Hub.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -144,10 +147,10 @@
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
-          "bin/placeholder/hub.infrastructure.dll": {}
+          "bin/placeholder/Hub.Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/hub.infrastructure.dll": {}
+          "bin/placeholder/Hub.Infrastructure.dll": {}
         }
       }
     }
@@ -321,27 +324,27 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
-    "hub.application/1.0.0": {
+    "Hub.Application/1.0.0": {
       "type": "project",
-      "path": "../hub.aplication/hub.application.csproj",
-      "msbuildProject": "../hub.aplication/hub.application.csproj"
+      "path": "../hub.aplication/Hub.Application.csproj",
+      "msbuildProject": "../hub.aplication/Hub.Application.csproj"
     },
-    "hub.domain/1.0.0": {
+    "Hub.Domain/1.0.0": {
       "type": "project",
-      "path": "../hub.domain/hub.domain.csproj",
-      "msbuildProject": "../hub.domain/hub.domain.csproj"
+      "path": "../hub.domain/Hub.Domain.csproj",
+      "msbuildProject": "../hub.domain/Hub.Domain.csproj"
     },
-    "hub.infrastructure/1.0.0": {
+    "Hub.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../hub.infrastructure/hub.infrastructure.csproj",
-      "msbuildProject": "../hub.infrastructure/hub.infrastructure.csproj"
+      "path": "../hub.infrastructure/Hub.Infrastructure.csproj",
+      "msbuildProject": "../hub.infrastructure/Hub.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Swashbuckle.AspNetCore >= 6.2.3",
-      "hub.application >= 1.0.0",
-      "hub.domain >= 1.0.0"
+      "Hub.Application >= 1.0.0",
+      "Hub.Domain >= 1.0.0",
+      "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
   "packageFolders": {
@@ -351,9 +354,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub\\hub.Api.csproj",
-      "projectName": "hub.Api",
-      "projectPath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub\\hub.Api.csproj",
+      "projectUniqueName": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub\\Hub.Api.csproj",
+      "projectName": "Hub.Api",
+      "projectPath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub\\Hub.Api.csproj",
       "packagesPath": "C:\\Users\\hulds\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub\\obj\\",
       "projectStyle": "PackageReference",
@@ -377,11 +380,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.aplication\\hub.application.csproj": {
-              "projectPath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.aplication\\hub.application.csproj"
+            "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.aplication\\Hub.Application.csproj": {
+              "projectPath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.aplication\\Hub.Application.csproj"
             },
-            "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\hub.domain.csproj": {
-              "projectPath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\hub.domain.csproj"
+            "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\Hub.Domain.csproj": {
+              "projectPath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\Hub.Domain.csproj"
             }
           }
         }

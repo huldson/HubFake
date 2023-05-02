@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\hub.aplication\hub.application.csproj" />
-    <ProjectReference Include="..\hub.domain\hub.domain.csproj" />
+    <ProjectReference Include="..\hub.aplication\Hub.Application.csproj" />
+    <ProjectReference Include="..\hub.domain\Hub.Domain.csproj" />
   </ItemGroup>
 
 </Project>

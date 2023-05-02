@@ -17,10 +17,10 @@ namespace hub.infrastructure
 
         public LogResgistro() { }
         
-        public LogResgistro(string metodo,string url,string codestatus ) {
+        public LogResgistro(string metodo,string url,string codeStatus ) {
             Metodo= metodo;
             Url= url;   
-            Codestatus= codestatus;
+            Codestatus= codeStatus;
         
         
         }

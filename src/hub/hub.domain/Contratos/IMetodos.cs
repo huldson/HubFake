@@ -8,6 +8,6 @@ namespace hub.domain.Contratos
 {
     public interface IMetodos
     {
-        public string Name();
+       string Nome();
     }
 }

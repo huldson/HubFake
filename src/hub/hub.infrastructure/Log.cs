@@ -14,10 +14,10 @@ namespace hub.infrastructure
 {
     public class Log : ILog
     {
-        public void Regitrar(LogResgistro Log)
+        public void Regitrar(LogResgistro log)
         {
             StreamWriter escritor = new StreamWriter(@"C:\Users\hulds\Desktop\registro\log.txt");
-            string json = JsonConvert.SerializeObject(Log);
+            string json = JsonConvert.SerializeObject(log);
             escritor.WriteLine(json);
             escritor.Close();
         }

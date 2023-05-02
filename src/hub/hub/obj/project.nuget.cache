@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q8Afck1Ymuh59KWj96SCDoTZmiqDWJVxRftVk1L8K/gLijU6iQFbda/F6FtHzxfWxO22KYk84xa+3gzErwAPkA==",
+  "dgSpecHash": "BXIwKIt87sclAG6NIFeLjLOS9v5USSC0uMwifOEjXlthkNSgg+goHnvUdv9hflhI+KNC5wTRUVOHC6gP51js7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub\\hub.Api.csproj",
+  "projectFilePath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub\\Hub.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hulds\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\hulds\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512",

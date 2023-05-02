@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("hub.application")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Hub.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("hub.application")]
-[assembly: System.Reflection.AssemblyTitleAttribute("hub.application")]
+[assembly: System.Reflection.AssemblyProductAttribute("Hub.Application")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Hub.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

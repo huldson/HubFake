@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\hub.domain.csproj": {}
+    "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\Hub.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\hub.domain.csproj": {
+    "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\Hub.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\hub.domain.csproj",
-        "projectName": "hub.domain",
-        "projectPath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\hub.domain.csproj",
+        "projectUniqueName": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\Hub.Domain.csproj",
+        "projectName": "Hub.Domain",
+        "projectPath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\Hub.Domain.csproj",
         "packagesPath": "C:\\Users\\hulds\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -44,6 +44,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

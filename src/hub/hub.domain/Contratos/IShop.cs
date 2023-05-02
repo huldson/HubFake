@@ -9,6 +9,6 @@ namespace hub.domain.Contratos
     public interface IShop
     {
         List<Produto> BuscarProdutos();
-        Produto Buscarproduto(int id);
+        Produto BuscarProduto(int id);
     }
 }

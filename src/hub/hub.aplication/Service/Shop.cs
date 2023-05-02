@@ -14,29 +14,30 @@ namespace hub.aplication.Service
 {
     public class Shop:IShop
     {
-        private readonly IMetodos _metodo;
+        
         private readonly ILog _log;
-        public Shop(IMetodos metodo,ILog log)
+        public Shop(ILog log)
         {
-            _metodo = metodo;
+            
             _log = log;
         }
 
         public List<Produto> BuscarProdutos()
         {
+            
             string url = "https://fakestoreapi.com/products";
             HttpClient client= new HttpClient();
             HttpResponseMessage response = client.GetAsync(url).Result;
             string json =response.Content.ReadAsStringAsync().Result;
             //string json = client.GetStringAsync(url).Result; forma de fazer riquisição direta 
-            List<Produto> TodosProdutos =JsonConvert.DeserializeObject<List<Produto>>(json);
-            string nomeMetodo = _metodo.Name();
+            List<Produto> todosProdutos =JsonConvert.DeserializeObject<List<Produto>>(json);
+            string nomeMetodo = Metodo.Nome();
             LogResgistro log=new LogResgistro(nomeMetodo,url,response.StatusCode.ToString());
             _log.Regitrar(log);
-            return TodosProdutos;
+            return todosProdutos;
 
         } 
-        public Produto Buscarproduto(int id)
+        public Produto BuscarProduto(int id)
         {
             string url = "https://fakestoreapi.com/products/";
             HttpClient client = new HttpClient();
@@ -44,11 +45,11 @@ namespace hub.aplication.Service
             HttpResponseMessage response = client.GetAsync(url+id).Result;
             //pega resultado e transforma em uma string
             string json = response.Content.ReadAsStringAsync().Result;
-            Produto Produtos = JsonConvert.DeserializeObject<Produto>(json);
-            string nomeMetodo = _metodo.Name();
+            Produto produtos = JsonConvert.DeserializeObject<Produto>(json);
+            string nomeMetodo = Metodo.Nome();
             LogResgistro log = new LogResgistro(nomeMetodo, url, response.StatusCode.ToString());
             _log.Regitrar(log);
-            return Produtos;
+            return produtos;
         }
     }
 }

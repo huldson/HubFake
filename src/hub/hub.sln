@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hub.Api", "hub\hub.Api.csproj", "{59B6C3E7-9A3C-4BAC-8EC1-C6E05C76BFE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hub.Api", "hub\Hub.Api.csproj", "{59B6C3E7-9A3C-4BAC-8EC1-C6E05C76BFE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hub.domain", "hub.domain\hub.domain.csproj", "{0673646C-EF4B-489D-8539-642F422BB0D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hub.Domain", "hub.domain\Hub.Domain.csproj", "{0673646C-EF4B-489D-8539-642F422BB0D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hub.application", "hub.aplication\hub.application.csproj", "{9319CE0C-FD67-4CD6-A9A3-6C1D65445B09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hub.Application", "hub.aplication\Hub.Application.csproj", "{9319CE0C-FD67-4CD6-A9A3-6C1D65445B09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hub.infrastructure", "hub.infrastructure\hub.infrastructure.csproj", "{A3F33576-4E8D-43F2-9ED7-5BAB59158A88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hub.Infrastructure", "hub.infrastructure\Hub.Infrastructure.csproj", "{A3F33576-4E8D-43F2-9ED7-5BAB59158A88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

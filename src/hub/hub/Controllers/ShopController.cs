@@ -6,24 +6,24 @@ namespace hub.Controllers
 {
     [ApiController]
     [Route("api/v1/[controller]")]
-    public class ControlerShop : Controller
+    public class ShopController : Controller
     {
         private readonly IShop _shop;
 
-        public ControlerShop(IShop shop)
+        public ShopController(IShop shop)
         {
             _shop = shop;
         }
 
         [HttpGet("consultarprodutos")]
         
-        public List<Produto> consultarprodutos() {
+        public List<Produto> ConsultarTodosOsProdutos() {
         
             return _shop.BuscarProdutos();
         }
         [HttpGet("consultarproduto")]
-        public Produto consultarProduto([FromQuery]int id) {
-            return _shop.Buscarproduto(id);
+        public Produto consultarProdutoPorId([FromQuery]int id) {
+            return _shop.BuscarProduto(id);
 
         }
     }

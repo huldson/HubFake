@@ -13,7 +13,7 @@ internal class Program
 
         builder.Services.AddControllers();
         builder.Services.AddScoped<IShop, Shop>(); // Adiciona a dependência entre a interface e a implementação NECESSARIO 
-        builder.Services.AddScoped<IMetodos, Metodos>();
+       // builder.Services.AddScoped<IMetodos, Metodos>(); tornei o metodo static não foi mais necessario 
         builder.Services.AddScoped<ILog, Log>();
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
@@ -37,7 +37,7 @@ internal class Program
         // Cria a instância de ControlerShop e resolve suas dependências Necessario
         using var serviceScope = app.Services.CreateScope();
         var serviceProvider = serviceScope.ServiceProvider;
-        var controlerShop = ActivatorUtilities.CreateInstance<ControlerShop>(serviceProvider);
+        var controlerShop = ActivatorUtilities.CreateInstance<ShopController>(serviceProvider);
 
         app.Run();
     }

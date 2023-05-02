@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FY8uwW7Rs7RlRqP+latfXZeC9l1MWXpw/u8jP2ITMn5OG1D8wdMg8UsUl1fLooF2uSI0giYxsPN6M6eauk39WQ==",
+  "dgSpecHash": "rsenAxtpOc6Hdw+rs0pIt2te5tHHWax4O53mr6pNNH62fO6SgDFIvmuGplw6qX+MxxGm8WWQ/vyfkURME4oztQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\hub.domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\hulds\\Desktop\\hub\\HubFake\\src\\hub\\hub.domain\\Hub.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hulds\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -10,9 +10,9 @@ using System.Diagnostics.CodeAnalysis;
 
 namespace hub.aplication.Service
 {
-    public class Metodos : IMetodos
+    public static class Metodo 
     {
-        public string Name()
+        public static string Nome()
         {
             StackTrace stackTrace = new StackTrace();
 

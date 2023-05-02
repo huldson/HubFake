@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\hub.domain\hub.domain.csproj" />
-    <ProjectReference Include="..\hub.infrastructure\hub.infrastructure.csproj" />
+    <ProjectReference Include="..\hub.domain\Hub.Domain.csproj" />
+    <ProjectReference Include="..\hub.infrastructure\Hub.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
